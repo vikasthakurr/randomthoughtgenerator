@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(pexels-akshar-dave-🍉-1299417.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.wrapper {
+    width: 610px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .text-area {
+    display: flex;
+    justify-content: center;
+}
+
+.text-area i {
+    font-size: 15px;
+}
+
+.text-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.text-area i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.text-area .quote {
+    font-size: 18px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child {
+    margin: -7px 5px 0 0;
+}
+
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+}
+
+.buttons .features {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5372f0;
+    border-radius: 50%;
+    border: 2px solid #5372f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background-color: #5372f0
+}
